@@ -1,0 +1,40 @@
+# creador de personajes para tus partidas de rol (calabozos y dragones)
+
+## objetivo de la pagina
+
+esta pagina web sirve para crear y guardar los personajes de un juego de rol ayuda a los narradores y a los jugadores a anotar los datos clave como el nombre la raza la clase el nivel y la historia de forma muy facilitando tambien el guardado ya que todo se queda guardado directamente en el navegador propio para que no se pierda nada de informacion 
+
+
+## como funciona el sistema
+
+### orden en las carpetas
+
+separamos todo en tres partes para que funcione bien la estructura va en el archivo html el diseño en el styles/css y las acciones en el javascript(js) asi todo queda ordenado y mas entendible para otros
+
+### botones y movimiento de la pantalla
+
+la pagina cambia sola cuando juegas con ella puedes crear un personaje o borrarlo y las tarjetas de tus heroes aparecen o desaparecen enseguida sin dejar rastros raros ni fallos en la pantalla el sistema reacciona cuando entras a la pagina cuando escribes en las casillas y cuando haces clic en los botones para borrar todo o eliminar a un solo personaje 
+
+### formulario y revisiones sin errores
+
+se hizo un formulario con cinco reglas para cuidar que no se introduzca informacion equivocada o incompleta El nombre es obligatorio y tiene que ser de tres letras o mas para que sea valido el nivel solo te deja poner del uno al veinte que es lo que se usa en el juego oficial la historia tiene que ser corta para que no rompa el diseno visual de las casillas tienes que elegir obligatoriamente una raza y una clase de las opciones que se dan si te equivocas al escribir la casilla se pone de color rojo y te avisa el fallo pero si lo arreglas cambia a color verde de inmediato 
+
+### datos que no se borran
+
+se uso la memoria interna del navegador para almacenar Puedes cerrar la pagina o recargar la pantalla y tus heroes van a seguir ahi esperandote Si no tienes ningun personaje creado el sistema te muestra un aviso amigable diciendo que la taberna esta vacia 
+
+### pantalla limpia para celular y computadora
+
+el diseño se adapta muy bien ademas se reviso las herramientas de desarrollo para asegurar que todo funcione de manera suave y con cero errores a la vista 
+
+### seguridad y trucos sencillos
+
+protegemos la aplicacion para que nadie pueda meter codigos raros en los textos libres Tambien se congelo el envio automatico para revisar que todo este bien escrito antes de guardar la informacion el codigo es directo y usa nombres claros para que se explique solo sin confusiones 
+
+
+### pasos para usar el proyecto
+
+1 descarga la carpeta completa con todos los archivos
+2 revisa que las carpetas de estilos y de javascript esten en su lugar correcto
+3 abre el archivo index html en tu navegador 
+4 escribe datos en las casillas para probar como avisa los errores y recarga la pagina para ver que tus personajes siguen guardados en la memoria
